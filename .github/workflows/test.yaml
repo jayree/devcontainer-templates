@@ -7,24 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  detect-changes:
-    runs-on: ubuntu-latest
-    outputs:
-      templates: ${{ steps.filter.outputs.changes }}
-    steps:
-      - uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            sf-project: ./**/sf-project/**
-
   test:
-    needs: [detect-changes]
     runs-on: ubuntu-latest
     continue-on-error: true
     strategy:
       matrix:
-        templates: ${{ fromJSON(needs.detect-changes.outputs.templates) }}
+        templates:
+          - sf-project
     steps:
       - uses: actions/checkout@v3
 
