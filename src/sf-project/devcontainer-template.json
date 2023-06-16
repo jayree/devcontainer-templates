@@ -2,7 +2,7 @@
   "id": "sf-project",
   "version": "1.0.0",
   "name": "Salesforce DX project",
-  "description": "A Template for Salesforce DX projects",
+  "description": "A template for Salesforce DX projects",
   "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
   "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
   "options": {
