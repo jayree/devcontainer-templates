@@ -1,7 +1,7 @@
 
 # Salesforce DX project (sf-project)
 
-A Template for Salesforce DX projects
+A template for Salesforce DX projects
 
 ## Options
 
