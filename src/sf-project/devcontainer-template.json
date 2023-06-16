@@ -1,0 +1,23 @@
+{
+  "id": "sf-project",
+  "version": "1.0.0",
+  "name": "Salesforce DX project",
+  "description": "A Template for Salesforce DX projects",
+  "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
+  "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+  "options": {
+    "imageVariant": {
+      "type": "string",
+      "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+      "proposals": ["bullseye", "buster"],
+      "default": "bullseye"
+    },
+    "version": {
+      "default": "latest",
+      "description": "Select the Salesforce CLI version to install:",
+      "proposals": ["latest", "latest-rc", "nightly", "beta"],
+      "type": "string"
+    }
+  },
+  "platforms": ["Any"]
+}
