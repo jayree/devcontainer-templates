@@ -13,7 +13,7 @@
       "jdkDistro": "open"
     },
     "ghcr.io/jayree/devcontainer-features/sf-plugins:1": {
-      "plugins": "@jayree/sfdx-plugin-manifest"
+      "plugins": ""
     },
     "ghcr.io/jayree/devcontainer-features/sf-autocomplete:1": {}
   },
