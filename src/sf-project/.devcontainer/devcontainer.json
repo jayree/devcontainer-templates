@@ -30,5 +30,8 @@
         "salesforcedx-vscode-apex.java.home": "/usr/local/sdkman/candidates/java/current"
       }
     }
+  },
+  "containerEnv": {
+    "SFDX_CONTAINER_MODE": "true"
   }
 }
